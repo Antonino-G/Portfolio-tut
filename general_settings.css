@@ -1,10 +1,10 @@
 :root{
-    --main-brand-color: #5E6E67;
+    --main-brand-color: #BE684B;
     --primary-color: #FEFBEC;
     --secondary-color: #C8D0CC;
     --dark-secondary-color: #4B5852;
     --text-color: #2F3733;
-    --secondary-text-color: #BE684B;
+    --secondary-text-color: #5E6E67;
 }
 *{
     margin: 0;
@@ -20,4 +20,8 @@ body{
 h1{
     font-size: 100px;
     line-height: 115%;
+}
+.subheading{
+    margin-top: 25px;
+    color: var(--secondary-text-color); 
 }
