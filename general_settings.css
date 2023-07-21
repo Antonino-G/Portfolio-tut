@@ -1,0 +1,23 @@
+:root{
+    --main-brand-color: #5E6E67;
+    --primary-color: #FEFBEC;
+    --secondary-color: #C8D0CC;
+    --dark-secondary-color: #4B5852;
+    --text-color: #2F3733;
+    --secondary-text-color: #BE684B;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 100vh;
+    background-color: var(--primary-color);
+    font-family: verdana ,sans-serif, Arial;
+    font-size: 20px;
+    color: var(--text-color);
+}
+h1{
+    font-size: 100px;
+    line-height: 115%;
+}
