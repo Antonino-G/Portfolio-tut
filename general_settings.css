@@ -19,10 +19,31 @@ body{
 }
 h1{
     font-size: 60px;
+    line-height: 115%;  
+}
+h2{
+    font-size: 50px;
     line-height: 115%;
-    
 }
 .subheading{
     margin-top: 25px;
     color: var(--secondary-text-color); 
+}
+@media(max-width: 800px){
+    h1{
+        font-size: 12vw;
+        text-align: center;
+    }
+    h2{
+        font-size: 5vw;
+        text-align: center;
+    }
+    .subheading{
+        text-align: center;
+    }
+    nav ul{
+        height: min-content;
+        width: 100%;
+        background: var(--background-color);
+      }
 }
