@@ -18,8 +18,9 @@ body{
     color: var(--text-color);
 }
 h1{
-    font-size: 100px;
+    font-size: 60px;
     line-height: 115%;
+    
 }
 .subheading{
     margin-top: 25px;
