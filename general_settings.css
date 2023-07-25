@@ -1,4 +1,13 @@
 :root{
+    --main-brand-color: #297AE3;
+    --primary-color: #15171C;
+    --secondary-color: #232933;
+    --dark-secondary-color: #2E3744;
+    --text-color: white;
+    --secondary-text-color: #B3B4B6;
+}
+/*
+:root{
     --main-brand-color: #BE684B;
     --primary-color: #FEFBEC;
     --secondary-color: #C8D0CC;
@@ -6,6 +15,7 @@
     --text-color: #2F3733;
     --secondary-text-color: #5E6E67;
 }
+*/
 *{
     margin: 0;
     padding: 0;
@@ -13,13 +23,12 @@
 body{
     min-height: 100vh;
     background-color: var(--primary-color);
-    font-family: verdana ,sans-serif, Arial;
-    font-size: 20px;
+    font-family: sans-serif;
     color: var(--text-color);
 }
 h1{
-    font-size: 60px;
-    line-height: 115%;  
+    font-size: 75px;
+    line-height: 115%;
 }
 h2{
     font-size: 50px;
@@ -27,23 +36,25 @@ h2{
 }
 .subheading{
     margin-top: 25px;
-    color: var(--secondary-text-color); 
+    color: var(--secondary-text-color);
 }
-@media(max-width: 800px){
+.warnung{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    padding: 100px 25px;
+}
+@media(max-width: 950px){
     h1{
-        font-size: 12vw;
+        font-size: 8vw;
         text-align: center;
     }
     h2{
-        font-size: 5vw;
+        font-size: 7vw;
         text-align: center;
     }
     .subheading{
         text-align: center;
     }
-    nav ul{
-        height: min-content;
-        width: 100%;
-        background: var(--background-color);
-      }
 }
