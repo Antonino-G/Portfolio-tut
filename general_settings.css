@@ -60,4 +60,7 @@ h3{
     .subheading{
         text-align: center;
     }
+    body{
+        font-size: 16px;
+    }
 }
